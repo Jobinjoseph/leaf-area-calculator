@@ -1,0 +1,10 @@
+boto3
+opencv-python
+numpy
+Pillow
+# Optional for future classifier
+tensorflow
+
+# For EC2 or system setup (optional)
+awscli
+

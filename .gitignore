@@ -1,0 +1,26 @@
+# .gitignore
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Output directories
+output/
+
+# AWS credentials (NEVER commit these)
+*.pem
+*.aws
+aws_credentials.json
+
+# Logs and temp
+*.log
+*.tmp
