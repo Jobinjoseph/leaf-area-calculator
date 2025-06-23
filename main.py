@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jun 17 10:42:01 2025
-
 @author: joseph
 """
 # main.py
