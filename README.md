@@ -1,17 +1,17 @@
 # README.md
 
-## 🌿 Leaf Area Calculator (SLAC)
+## Leaf Area Calculator (SLAC)
 
 This project calculates the **leaf area from a photograph** using computer vision and uploads results to **AWS**. It requires:
 
-- 🐍 Python (modular structure)
-- 🧠 OpenCV (image segmentation)
-- 📦 TensorFlow (optional classification)
-- ☁️ AWS EC2 (deployment), S3 (image storage), DynamoDB (metadata logging)
+- Python (modular structure)
+- OpenCV (image segmentation)
+- TensorFlow (optional classification)
+- AWS EC2 (deployment), S3 (image storage), DynamoDB (metadata logging)
 
 ---
 
-### 📂 Project Structure
+### Project Structure
 ```
 leaf_area_calculator/
 ├── main.py                         # Main orchestrator
@@ -30,7 +30,7 @@ leaf_area_calculator/
 
 ---
 
-### 🚀 Getting Started
+### Getting Started
 
 #### 1. Clone the Repository
 ```bash
@@ -55,7 +55,7 @@ aws configure
 
 ---
 
-### 🧪 Usage Example
+### Usage Example
 ```python
 python main.py
 ```
@@ -63,7 +63,7 @@ Edit `main.py` to change the input image or reference object size (e.g., coin = 
 
 ---
 
-### 🧠 How It Works
+### How It Works
 1. **Segment Leaf and Reference**: OpenCV detects contours in the image.
 2. **Compute Area**: Calculates leaf area using pixel ratio to a known object.
 3. **Save and Upload**: Result is saved and pushed to AWS S3.
@@ -71,7 +71,7 @@ Edit `main.py` to change the input image or reference object size (e.g., coin = 
 
 ---
 
-### 🔧 Example DynamoDB Entry
+### Example DynamoDB Entry
 ```json
 {
   "leaf_id": "b9fa0f80-65ac-4bda-a26c-fc0bd7a1b04b",
@@ -83,12 +83,12 @@ Edit `main.py` to change the input image or reference object size (e.g., coin = 
 
 ---
 
-### 🛠 To Do / Optional Extensions
+### To Do / Optional Extensions
 - Add TensorFlow classifier to identify leaf species
 - Create a Streamlit or Flask UI
 - Add SNS notifications or webhooks
 
 ---
 
-### 📜 License
+### License
 MIT License – feel free to fork and adapt.
